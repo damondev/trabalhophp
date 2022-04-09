@@ -6,5 +6,5 @@
 	criarArquivo('usuario.txt', $usuario);
 	criarArquivo('senha.txt', $senha);
 	
-	header('location:login.php');
+	header('location: login.php');
 ?>
