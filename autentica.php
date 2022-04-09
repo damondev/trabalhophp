@@ -8,7 +8,7 @@
 	$senha_valido = lerArquivo('senha.txt');
 	
 
-	if(filesize('usuario.txt') > 0 || filesize('senha.txt') > 0) {
+	if(isset($usuario) || isset($senha)) {
 		if($usuario == $usuario_valido){
 			if($senha == $senha_valido){
 				$_SESSION['usuario'] = 'funcionário' ;
