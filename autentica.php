@@ -8,20 +8,16 @@
 	$senha_valido = lerArquivo('senha.txt');
 	
 
-	if(isset($usuario) || isset($senha)) {
-		if($usuario == $usuario_valido){
-			if($senha == $senha_valido){
-				$_SESSION['usuario'] = 'funcionário' ;
-				$_SESSION['ultimaAtividade'] = time();
-				header('location:inicio.php');
-			}else{
-				header('location:login.php');
-			}
+	if($usuario == $usuario_valido){
+		if($senha == $senha_valido){
+			$_SESSION['usuario'] = 'funcionário' ;
+			$_SESSION['ultimaAtividade'] = time();
+			header('location:inicio.php');
 		}else{
-			header('location:login.php');	
+			header('location:login.php');
 		}
 	}else{
-		header('location: cadastroinvalido.php');
+		header('location:login.php');	
 	}
 	
 ?>
