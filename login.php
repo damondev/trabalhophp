@@ -81,7 +81,9 @@
      </style> 
 <body>
 
-<h1>Frigorífico Six</h1>
+<a href="index.php">
+  <h1>Frigorífico Six</h1>
+</a>
 
 <form action='autentica.php' method='post'>
     <h2> Login </h2>
