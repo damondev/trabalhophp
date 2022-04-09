@@ -62,7 +62,9 @@ a:hover {
 }
 </style>
 <body>
-   <h1>Frigoríco Six </h1>
+   <a href="index.php">
+       <h1>Frigoríco Six </h1>
+   </a>
 <h2> Você se identifica como: </h2>
 
  <div class="box"> 

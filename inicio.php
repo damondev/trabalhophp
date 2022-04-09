@@ -42,6 +42,10 @@
        font-family: 'Poppins' sans-serif;
        background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
 		}
+
+		th {
+			background-color: white;
+		}
 	
 </style>
 <body>

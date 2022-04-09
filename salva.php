@@ -3,12 +3,23 @@
 	$usuario = $_POST['usuario'];
 	$senha = $_POST['senha'];
 	
+if(empty($usuario) || empty($senha)) {
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+	
+</body>
+</html>
+
+<?php
+}else{
 	criarArquivo('usuario.txt', $usuario);
 	criarArquivo('senha.txt', $senha);
-	
-	if(isset($usuario) || isset($senha)) {
-		header('location: login.php');
-	}else{
-		header('location: cadastroinvalido.php');
-	}
+	header('location: login.php');
+}
 ?>
