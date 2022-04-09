@@ -6,5 +6,9 @@
 	criarArquivo('usuario.txt', $usuario);
 	criarArquivo('senha.txt', $senha);
 	
-	header('location: login.php');
+	if(isset($usuario) || isset($senha)) {
+		header('location: login.php');
+	}else{
+		header('location: cadastroinvalido.php');
+	}
 ?>
