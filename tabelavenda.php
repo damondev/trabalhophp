@@ -5,7 +5,7 @@ $produto = $_POST['produto'];
 $valor = $_POST['valor'];
 $tempo = time();
 if (empty($produto) || empty ($valor)) {
-    header ('location: paineldevendas.php');
+    header ('location: nadacomprado.php');
 }else{
     $date = date("d/m/Y", $tempo);
     $registro = "$produto|$valor|$date|";

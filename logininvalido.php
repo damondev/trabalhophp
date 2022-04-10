@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <title> Cadastro inválido </title>
+    <title> Login inválido </title>
 </head>
 <style>
     h1{
@@ -45,9 +45,9 @@
 }
 </style>
 <body>
-    <h1> VOCÊ NÃO SE CADASTROU! </h1>
+    <h1> SEU LOGIN ESTÁ INCORRETO! </h1>
     <div class="bix"> 
-     <a href="cadastro.php">REALIZAR O CADASTRO</a> <br>
+     <a href="login.php">REALIZAR O LOGIN NOVAMENTE</a> <br>
      <br>
      <br>
      <a href="index.php">VOLTAR PARA A PÁGINA INICIAL</a> <br>

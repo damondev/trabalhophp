@@ -6,7 +6,7 @@
 	if(isset($_SESSION['usuario'])){
 		validarLogin();
 		if($_SESSION['logado'] == false){
-			echo "Sessão expirada";
+			header('location: login.php');
 		}else{
 ?>
 <style>
@@ -29,7 +29,7 @@
 		}
 		table{
 			text-align: center;
-			width: 98%;
+			width: 100%;
 			border: 1px solid black;
 			border-collapse: collapse;
 			border-radius: 900px;
@@ -37,8 +37,8 @@
 		tr:hover {background-color: coral;
 		}
 		body{
-	   width: 100%;
-       height: 100vh;
+	   width: 98%;
+       height: 97vh;
        font-family: 'Poppins' sans-serif;
        background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
 		}
@@ -46,11 +46,30 @@
 		th {
 			background-color: white;
 		}
-	
+		h2{
+      font-size: 1.8em;
+      color: black;
+      font-family:arial ;
+	  border-radius: 10px;
+      text-align: center; 
+      padding: 50px;
+      background: yellow;
+    }
+	a{
+		position: relative;
+    font-weight: 8786;
+    text-decoration:none ;
+	text-align: center;
+    color: white;
+    border: 3px solid darkorange;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 </style>
 <body>
-<h2>Bem-Vindo estimado cliente</h2>
-<hr>
+<h2>REGISTRO DE VENDAS</h2>
 <table>
     <tr>
         <td>PRODUTO</td>

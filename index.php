@@ -13,7 +13,7 @@
     background:darkred;
     transform: translate(-50%, -50%);
     padding: 50px;
-    border-radius: 10px;
+    border-radius: 20px;
     
     
      
@@ -52,7 +52,7 @@ a{
 }
 body{
        width: 100%;
-       height: 100vh;
+       height: 93vh;
        font-family: 'Poppins' sans-serif;
        background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
 }
@@ -62,14 +62,15 @@ a:hover {
 }
 </style>
 <body>
-   <a href="index.php">
        <h1>Frigoríco Six </h1>
-   </a>
+<br>
 <h2> Você se identifica como: </h2>
 
  <div class="box"> 
-     <a href="login.php">VENDEDOR</a> 
-     <a href="paineldevendas.php">COMPRADOR</a> 
+     <a href="login.php">PROPRIETÁRIO</a> <br>
+     <br>
+     <br>
+     <a href="paineldevendas.php">CLIENTE</a> 
  </div>
 
 </body>

@@ -2,18 +2,17 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <title> Compra realizada </title>
+    <title> Compra não realizada </title>
 </head>
 <style>
     h1{
      font-size: 1.8em;
-      margin-bottom: 50%;
       color: black;
       font-family:arial ;
       text-align: center; 
-      border-radius: 40px;
+      border-radius: 50px;
       padding: 50px;
-      background: linear-gradient(45deg, yellow, darkgreen);
+      background: linear-gradient(45deg, yellow, white);
     }
     .bux{
     position: absolute;
@@ -25,7 +24,7 @@
     }
     body{
         background-image: linear-gradient(45deg, cyan, yellow);
-        width: 98%;
+        width: 99%;
         height: 95vh;
 
     }
@@ -45,18 +44,13 @@
 </style>
 <body>
 
-
-    <h1> VOCÊ NÃO ! </h1>
+    <h1> VOCÊ NÃO REALIZOU UMA COMPRA! </h1>
 
     <div class="bux"> 
-     <a href="paineldevendas.php">REALIZAR OUTRA COMPRA</a> <br>
+     <a href="paineldevendas.php">REALIZAR ALGUMA COMPRA</a> <br>
      <br>
      <br>
      <a href="index.php">VOLTAR PARA A PÁGINA INICIAL</a> <br>
  </div>
-
-
-
-
 </body>
 </html>

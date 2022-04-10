@@ -63,11 +63,11 @@ body{
 <body>
 <form action='salva.php' method='post'>
 	<h1> Cadastro </h1>
-	<label>E-mail</label>
-	<input type='email' name='usuario'>
+	<label>Usuário</label>
+	<input type='text' name='usuario' placeholder="Digite seu nome de usuário">
 	<br>
 	<label>Senha</label>
-	<input type='password' name='senha'>
+	<input type='password' name='senha' placeholder="Digite a sua senha">
 	<br>
 	<button type='submit'>Cadastrar</button>
 </form>

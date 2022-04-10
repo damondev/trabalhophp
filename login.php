@@ -88,9 +88,9 @@
 <form action='autentica.php' method='post'>
     <h2> Login </h2>
  <label> Usuário </label>
- <input type="text" name="usuario">
+ <input type="text" name="usuario" placeholder="Digite seu nome de usuário">
  <label> senha </label>
- <input type="password" name="senha">
+ <input type="password" name="senha" placeholder="Digite a sua senha">
     <button><a href="cadastro.php"> Cadastre-se </a></button>
     <button><a href="inicio.php"> Entrar </a></button>
 </form>

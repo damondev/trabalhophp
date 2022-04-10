@@ -7,8 +7,8 @@
 <style>
     form{
      position: relative;
-        top: 90%;
-        left: 50%;
+        top: 40%;
+        left: 53%;
         transform: translate(-50%, -50%);
         background: #fff;
         border-radius: 20px;
@@ -16,6 +16,15 @@
         width: min-content;
         align-items: center;
         color: #2b344b;
+    }
+    h1{
+     font-size: 1.8em;
+      color: black;
+      font-family:arial ;
+      text-align: center; 
+      border-radius: 50px;
+      padding: 50px;
+      background: linear-gradient(-45deg, white, yellow);
     }
     h2{
       font-size: 1.8em;
@@ -54,20 +63,21 @@
      cursor: pointer;
     }
     body{
-        background-image: linear-gradient(45deg, cyan, yellow);
-        width: 100%;
-        height: 45vh;
+        width: 95%;
+       height: 95vh;
+       font-family: 'Poppins' sans-serif;
+       background-image: linear-gradient(45deg, cyan, yellow);
     }
    
 </style>
 <body>
-    <h1> Realize sua compra </h1>
+    <h1> REALIZE SUA COMPRA </h1>
     <form action="tabelavenda.php" method="POST">
         <h2> COMPRA </h2>
         <label for="produto"> Nome do produto </label>
-        <input type="text" name="produto" id="produto">
+        <input type="text" name="produto" id="produto" placeholder="Digite o nome do produto">
         <label for="valor"> Valor da venda </label>
-        <input type="text" name="valor" id="valor">
+        <input type="text" name="valor" id="valor" placeholder="Digite o valor da venda">
         <button type="submit">Realizar compra</button>
     </form>
 </body>
